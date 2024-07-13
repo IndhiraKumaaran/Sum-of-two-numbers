@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum</title>
+
+</head>
+<body>
+ <center><h1>Sum of two numbers</h1>
+  <input id="one"  value="1">
+  <input id="two" placeholder="num2" value="2">
+  <p id="result">result</p>
+  <button style="background-color: rgb(77, 71, 71);" class="buto" onclick=add()>sum</button>
+  </center> 
+</body>
+</html>
+<style>
+    h1{color: orange;}
+    body{
+        background-color: 
+        black;
+        color:orange ;
+       
+    }
+    button{
+        font-weight: bolder;
+        height: 30;
+        color: orange;
+        border-radius: 10px;
+        width: 160px;
+        border: none;
+        
+        transition: 1s;
+        cursor: pointer;
+    }
+    button:hover{
+        opacity: 0.9;
+        box-shadow: 5px 7px 18px rgb(243, 243, 231);
+
+    }
+    button:active{
+       background-color: bisque; color: rgb(209, 212, 226);
+    }
+    p{  background-color: black;
+        color: orange
+        ;
+    }
+</style>
+<script>function add(a ,b){
+    var num1 =document.getElementById("one")
+    var num2  =document.getElementById("two")
+    var result=document.getElementById("result")
+    var a =Number(num1.value)
+    var b=Number(num2.value)
+    
+    console.log(a+b);
+    result.textContent=a+b
+   }
+</script>
