@@ -13,6 +13,6 @@ This simple web application calculates the sum of two numbers entered by the use
 3. The result will be displayed below the button.
 
 ## Files
-- `index.html`: The main HTML file containing the structure of the webpage.
-- `styles.css`: The CSS file for styling the webpage.
-- `script.js`: The JavaScript file containing the logic for calculating the sum.
+- `sum.html`: The main HTML file containing the structure of the webpage.
+- `sumstyle.css`: The CSS file for styling the webpage.
+- `sumscript.js`: The JavaScript file containing the logic for calculating the sum.
